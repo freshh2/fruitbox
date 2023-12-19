@@ -1,0 +1,85 @@
+body{font-family: 'IBM Plex Sans KR', sans-serif;}
+
+#home{background-image:url(images/first/fruits-8288759.jpg);
+background-size:cover;
+background-position: center top;
+background-attachment: fixed;}
+
+
+#home2{background-image:url(images/first/tangerine-newt.jpg) ;
+  background-size:cover;
+  background-position: center top;
+  background-attachment: fixed;}
+
+
+
+/*subscribe css 시작*/
+
+#subscribe {
+  margin: 50px;
+}
+
+#cup,
+#basket {
+  height: 90vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  min-height: 300px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#cup {
+  background-image: url(images/fruit-4551315_1280.jpg);
+  background-size: 50% 100%;
+  background-position: left center;
+}
+
+#basket {
+  background-image: url(images/fruits-1114060.jpg);
+  background-size: 50% 100%;
+  background-position: right center;
+}
+
+.image-container {
+  margin-bottom: 20px;
+}
+
+#subscribe-section {
+  overflow: hidden;
+  padding: 5% 0;
+}
+
+@media (max-width: 768px) {
+  #cup,
+  #basket {
+    height: auto; 
+    background-size: cover; 
+    width: 100%; 
+    margin-right: 0; 
+    background-position: center center;
+  }
+}
+
+/*subscribe css 끝*/
+
+
+body {
+  padding-top: 56px; 
+}
+
+@media (max-width: 992px) {
+  body {
+      padding-top: 0; 
+  }
+}
+
+.section-container {
+  margin-top: 80px;
+}
+
+
+
